@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <form action="pages/checkr.php" method="post">
+        <input type="text" name="fname" placeholder="Enter Name">
+        <br>
+        <input type="text" name="lname" placeholder="Enter Family">
+        <br>
+        <input type="text" name="id" required placeholder="Enter Username" >
+        <span>*</span>
+        <br>
+        <input type="password" name="password" minlength="4" placeholder="Enter Password">
+        <span>at list maximom5</span>
+        <br>
+        <input type="password" name="repassword" minlength="4" placeholder="ConfrimPassword">
+        <br>
+        <input type="email" name="email" placeholder="example@info.com">
+        <br>
+        <input type="submit" name="submit" value="Register">
+        <input type="reset" name="reset" >
+    </form>
+</body>
+</html>
